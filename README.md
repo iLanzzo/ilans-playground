@@ -1,6 +1,8 @@
 Welcome to my first DevOps project.
 
-This project hold two containers, once for MySQL the other for myapp.
+.
+
+This project holds two containers, once for MySQL the other for myapp.
 
 Using docker compose it builds myapp image using python apline and creates another container for the database using MySQL.
 
@@ -10,6 +12,7 @@ Once it's up, the app connects to MySQL's database via the network and prints th
 
 To run the app - follow the steps:
 
+.
 
 1 - Download the contnent (including: myapp folder, compose.yml).
 
@@ -23,6 +26,7 @@ To run the app - follow the steps:
   
 5 - Run the app container using - 'docker exec -it devproj-app bash' then run 'python app.py', it will print the data from the database.
 
+.
 
 Thanks, 
 
