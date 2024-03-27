@@ -1,6 +1,0 @@
-services:
-  myapp:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: myshapp

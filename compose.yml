@@ -20,7 +20,8 @@ services:
       dockerfile: Dockerfile
     image: devproj-app
     container_name: devproj-app
-    command: sh -c "sleep infinity"
+    command: sh -c "python app.py && sleep infinity"
+    #command: sh -c "sleep infinity"
     #ports:
     #  - 127.0.0.1:3300:3300
     networks:
