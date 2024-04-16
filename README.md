@@ -2,7 +2,7 @@ Welcome to my first DevOps project.
 
 .
 
-This project holds two containers, once for MySQL the other for myapp.
+This project holds two containers, one for MySQL the other for myapp.
 
 Using docker compose it builds myapp image using python apline and creates another container for the database using MySQL.
 
